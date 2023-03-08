@@ -1,0 +1,180 @@
+.container{
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container #body{
+    width: 80%;
+    margin: 0;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+    border-top: none;
+    box-shadow: none;
+    border-radius: 1px;
+    border-bottom: none;
+}
+
+.container #body #left{
+    border: none;
+    box-shadow: none;
+    border-left: 10px solid #fffc04;
+    background-color: transparent;
+    border-radius: 1px;
+    margin-bottom: 0;
+}
+
+.container #body #left #title-div{
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.container #body #left #title-div h2{
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.container #body #left #job{
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+.container #body #left #job p{
+    font-size: small;
+    text-align: justify;
+}
+
+.container #body #right{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.container #body #right #title-div{
+    padding: 0;
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.container #body #right #title-div h2{
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.container #body #right #percentages-div{
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+#percentages-div p {
+    float: right;
+    margin: 0;
+    font-size: x-small;
+}
+
+.container #body #right #skills-n-comps{
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.row{
+    padding: 0;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.container #body #right #skills-n-comps
+#skill-div{
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.container #body #right #skills-n-comps
+#skill-div p{
+    margin: 0;
+    background-color: transparent;
+}
+
+.container #body #right #skills-n-comps
+.row #percentage-div {
+    margin-bottom: 0;
+    padding: 0.5vw;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.container #body #right #skills-n-comps
+.row #percentage-div div{
+    border: 1px solid black;
+    width: 100%;
+    background-color: transparent;
+}
+
+.container #body #right #skills-n-comps
+.row #percentage-div div div{
+    height: 1vh;
+    /* width: 75%; */
+    background-color: #fffc04;
+    border: none;
+    box-shadow: none;
+}
+
+.container #body #right #achiev-n-cert{
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.container #body #right #achiev-n-cert
+div{
+    padding: 0;
+    margin-bottom: 1.1vh;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    
+}
+
+.container #body #right #achiev-n-cert
+div h3{
+    font-size: small;
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 0.5vh;
+
+}
+
+.container #body #right #achiev-n-cert
+div p{
+    margin: 0;
+    font-size: smaller;
+    text-align: justify;
+
+}

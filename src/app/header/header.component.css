@@ -1,0 +1,115 @@
+.container{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container #header{
+    width: 80%;
+    margin: 0.5vw;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    backdrop-filter: blur(7px);
+    margin-bottom: 0;
+    border-bottom: none;
+    border-radius: 1px;
+    margin-top: 2.5vh;
+}
+
+.container #header::after{
+    content: "";
+    display: block;
+    border-bottom: 4px solid #fffc04;
+    position: absolute;
+    bottom: 0;
+    left: 20%; /* set left to center the line at 60% */
+    width: 60%; /* set width to 60% */
+}
+
+.container #header
+#left, #middle, #right{
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.container #header
+#left{
+    padding: 0;
+    border-left: 10px solid #fffc04;
+    border-radius: 1px;
+}
+
+.container #header
+#left #title-div{
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.container #header
+#left #title-div h1{
+    font-size: 2em;
+    margin: 0;
+    padding-left: 0.5vw;
+}
+
+.container #header
+#left #cv-bio{
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.container #header
+#left #cv-bio p{
+    text-align: justify;
+    font-size: small;
+    margin: 0;
+    padding-left: 0.5vw;
+}
+
+.container #header
+#middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container #header
+#middle img{
+    width: 190px;
+    height: 170px;
+    border-radius: 50%;
+    margin-left: 2vw;
+}
+
+.container #header
+#right{
+    padding: 0;
+    
+}
+
+.container #header
+#right #info{
+    margin-bottom: 0;
+    padding: 0.43vw;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    width: fit-content;
+}
+.container #header #right
+#info p{
+    margin: 0.5vw;
+}
+
+.container #header #right
+#info p i{
+    font-size: 1.2em;
+}
